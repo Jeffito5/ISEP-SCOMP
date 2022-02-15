@@ -1,0 +1,2 @@
+"Jobs" são os processos que estão estão correndo ou suspenso, mas que ainda não terminaram, e todo o "job" é acompanhado de um pid. Sendo assim o "Kill %1" "mata" ou encerra o processo que está na primeira posição de "job", caso fosse "kill %2" seria o segundo "job".
+Para saber a ordem de jobs só digitar "job" no terminal.

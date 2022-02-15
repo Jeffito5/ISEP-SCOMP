@@ -1,0 +1,3 @@
+a) 5 processos.
+b) 2 threads. Após se fazer o fork da linha 5, existem 2 processos dentro desse if. Ou seja, esses 2 
+processos fazem a linha 7 e criam 1 thread cada um.

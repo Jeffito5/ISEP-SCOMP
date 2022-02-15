@@ -1,0 +1,1 @@
+Porque o sempre que o pipe estiver cheio o pipe impede a escrita nele, e enquanto não termina a leitura não poderá ser feita nada, uma vez que a leitura na verdade elimina os dados do pipe.

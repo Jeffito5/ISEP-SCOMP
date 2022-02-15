@@ -1,0 +1,7 @@
+Como o computador apresenta um processador de 4 cores logo, o número de 
+processos que dá a melhor prestação do sistema será igual ao número de
+cores. Assim. um processo corre em cada core e todos em simultâneo sem terem
+de esperar por nenhum. Se for necessário mais processos, um multiplo desse valor 
+também iria trazer mais eficiência no que diz respeito ao uso do processador.
+
+

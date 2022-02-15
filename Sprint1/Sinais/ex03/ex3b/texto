@@ -1,0 +1,15 @@
+int sigaction(int sig, const struct sigaction * act, struct sigaction * oact);
+
+O argumento sig especifica o sinal e os valores estão definidos em <signal.h>
+
+Se o argumento act não for um pointer nulo, ele apontará para uma estrutura 
+que especifica a ação a ser associada ao sinal especificado. 
+
+Se o argumento oact não for um pointer nulo, a ação anteriormente associada 
+ao sinal é armazenada no local apontado pelo argumento oact . 
+
+Se o argumento act for um pointer nulo, o tratamento do sinal não será alterado; 
+assim, a chamada pode ser usada para perguntar sobre o tratamento atual de 
+um determinado sinal. Os sinais SIGKILL e SIGSTOP não devem ser adicionados 
+à máscara de sinal usando este mecanismo; esta restrição deve ser aplicada 
+pelo sistema sem causar a indicação de um erro.

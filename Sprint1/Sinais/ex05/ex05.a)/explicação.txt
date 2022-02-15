@@ -1,0 +1,1 @@
+Apertar Control+C seria a mesma coisa que exectuar o a função kill(), dando como variavel o pid do processo atual e o 9 que é o número que representa o sinal "INT" dando assim a interrupção e o enceramento do processo.

@@ -1,0 +1,5 @@
+Não podem ser usadas porque, quando isso acontece, essas variáveis estáticas
+podem fazer com que a função não possa ser interrompida. Por exemplo, se se chamar
+outra função que acede a variáveis globais, o sinal é recebido a meio da ação
+e as variáveis podem estar num estado inconsistente. Ou seja, pode exibir
+resultados diferentes em execuções diferentes.

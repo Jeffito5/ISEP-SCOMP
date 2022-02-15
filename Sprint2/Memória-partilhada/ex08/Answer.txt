@@ -1,0 +1,2 @@
+No, this result will not be always correct.
+To be açways correct we will need to syncronize the processes.

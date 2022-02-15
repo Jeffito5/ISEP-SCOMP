@@ -1,0 +1,5 @@
+A função sigaction ajusta-se melhor ao comportamento a se ter quando se 
+lida com sinais. Esta função bloqueia outros sinais até haver retorno 
+do sinal que se está a lidar. Já na função signal, esta não bloqueia sinais
+que são recebidos aquando da execução de um processo. Ainda assim, a função sigaction 
+especifica mais informações do que a signal. 
